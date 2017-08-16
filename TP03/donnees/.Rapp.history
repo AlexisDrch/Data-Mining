@@ -1,0 +1,233 @@
+getwd()
+ls
+library(MASS)
+data(crabs)
+crabs
+clear
+clean()
+crabs.status
+crabs.status()
+infos(crabs)
+status(crabs)
+summary(crabs)
+ls
+data(iris)
+iris
+iris.dist <- dist(iris)
+dist(iris)
+iris.d
+iris.dist
+iris.dist[rowSums(is.na(m))!=3, ]
+iris.dist[rowSums(is.na(iris.dist))!=3, ]
+iris.dist[rowSums(is.na(iris.dist))!=14, ]
+cmdscale(iris.dist)
+plot(iris.dist)
+iris.aftp <- cmdscale(iris.dist)
+plot(iris.aftp)
+plot(iris.aftp,xlab="Axe1",ylab="Axe2",axes=T, main = "Plans de représentation des individus dans le premier plan factoriel")
+data(iris)
+summary(iris)
+plot(iris.3means$cluster, bg=c("orange","blue","green")[iris.3means$centers], pch=c(21,25,29)[iris.3means$centers], xlab="Axe1",ylab="Axe2",axes=T, main = "Clustering Kmeans (k=3) sur iris")
+iris.3means <- kmeans(iris[,1:4], 3, iter.max = 100)
+plot(iris.3means$cluster, bg=c("orange","blue","green")[iris.3means$centers], pch=c(21,25,29)[iris.3means$centers], xlab="Axe1",ylab="Axe2",axes=T, main = "Clustering Kmeans (k=3) sur iris")
+iris.3means$cluster
+plot(iris[,1:4], bg=c("orange","blue","green")[iris.3means$cluster], pch=c(21,25,29)[iris.3means$cluster], xlab="Axe1",ylab="Axe2",axes=T, main = "Clustering Kmeans (k=3) sur iris")
+plot(iris[,1:4])
+data(iris)#
+	iris.dist <- dist(iris)#
+	iris.aftd <- cmdscale(iris.dist) #Applying AFTD#
+	plot(iris.dist)#
+	iris.aftp <- cmdscale(iris.dist)#
+	plot(iris.aftp, bg=c("red","blue")[iris[,5]], pch=c(21,25)[iris[,5]], xlab="Axe1",ylab="Axe2",axes=T, main = "Représentation des individus dans le premier plan factoriel") # visualisation #
+	abline(v=0)#
+	abline(h=0)
+plot(iris.aftp, bg=c("red","blue")[iris.3means$cluster], pch=c(21,25)[iris.3means$cluster], xlab="Axe1",ylab="Axe2",axes=T, main = "Représentation des individus dans le premier plan factoriel") # visualisation
+plot(iris.aftp, bg=c("red","blue","orange")[iris.3means$cluster], pch=c(21,25, 29)[iris.3means$cluster], xlab="Axe1",ylab="Axe2",axes=T, main = "Représentation des individus dans le premier plan factoriel") # visualisation
+plot(iris)
+plot(iris[,1:4])
+plot(iris[,1:4], bg=c("red","blue","orange")[iris.3means$cluster], pch=c(21,25, 29)[iris.3means$cluster], xlab="Axe1",ylab="Axe2",axes=T, main = "Représentation des individus dans le premier plan factoriel") # visualisation
+plot(iris[,1:4], bg=c("red","blue","orange")[iris.3means$cluster], pch=c(21,25, 29)[iris.3means$cluster],  main = "Représentation des individus dans le premier plan factoriel") # visualisation
+iris.3means$cluster
+iris[,1:4]
+plot(iris[,1:4], bg=c("red","blue")[iris.3means$cluster], pch=c(21,25)[iris.3means$cluster],  main = "Représentation des individus dans le premier plan factoriel") # visualisation
+centr
+plot(iris[,1:4], bg=c("red","blue", "orange")[iris[,5]], pch=c(21,25, 29)[iris[,5]],  main = "Représentation des individus dans le premier plan factoriel") # visualisation
+warnings()
+plot(iris[,1:4], bg=c("red","blue", "orange")[iris[,5]], pch=c(21,25, 27)[iris[,5]],  main = "Représentation des individus dans le premier plan factoriel") # visualisation
+plot(iris[,1:4], bg=c("red","blue", "orange")[iris[,5]],  main = "Représentation des individus dans le premier plan factoriel") # visualisation
+plot(iris[,1:4], bg=c("red","blue")[iris[,5]],  main = "Représentation des individus dans le premier plan factoriel") # visualisation
+plot(iris[,1:4], bg=c("red","blue", "orange")[iris[,5]], pch=c(21,25, 27)[iris[,5]],  main = "Représentation des individus dans le premier plan factoriel") # visualisation
+plot(iris.3means$cluster, bg=c("orange","blue","green")[iris.3means$centers], pch=c(21,25,29)[iris.3means$centers], xlab="Axe1",ylab="Axe2",axes=T, main = "Clustering Kmeans (k=3) sur iris") # visualisation
+warnings()
+plot(iris.3means$cluster, bg=c("orange","blue","green")[iris.3means$centers], pch=c(21,25,29)[iris.3means$centers], xlab="Axe1",ylab="Axe2",axes=T, main = "Clustering Kmeans (k=3) sur iris") # visualisation
+data(iris)#
+	iris.dist <- dist(iris)#
+	iris.aftd <- cmdscale(iris.dist) #Applying AFTD#
+	plot(iris.dist)#
+	iris.aftp <- cmdscale(iris.dist)#
+	plot(iris.aftp, bg=c("red","blue")[iris[,5]], pch=c(21,25)[iris[,5]], xlab="Axe1",ylab="Axe2",axes=T, main = "Représentation des individus dans le premier plan factoriel") # visualisation #
+	abline(v=0)#
+	abline(h=0)
+data(iris)#
+	iris.dist <- dist(iris)#
+	iris.aftd <- cmdscale(iris.dist) #Applying AFTD#
+	plot(iris.dist)#
+	iris.aftp <- cmdscale(iris.dist)#
+	plot(iris.aftp, bg=c("red","blue","orange")[iris[,5]], pch=c(21,25,29)[iris[,5]], xlab="Axe1",ylab="Axe2",axes=T, main = "Représentation des individus dans le premier plan factoriel") # visualisation #
+	abline(v=0)#
+	abline(h=0)
+plot(iris.3means$cluster, bg=c("orange","blue","green")[iris.3means$centers], pch=c(21,22,25)[iris.3means$centers], xlab="Axe1",ylab="Axe2",axes=T, main = "Clustering Kmeans (k=3) sur iris") # visualisation
+plot(iris[,1:4], bg=c("red","blue","orange")[iris.3means$cluster], pch=c(21,22, 25)[iris.3means$cluster],  main = "Représentation des individus dans le premier plan factoriel") # visualisation
+plot(iris[,1:4], bg=c("red","blue","orange")[iris.3means$cluster],  main = "Représentation des individus dans le premier plan factoriel") # visualisation
+plot(iris[,1:4], bg=c("red","blue","orange")[iris.3means$cluster], pch=c(21,22, 25)[iris.3means$cluster],  main = "Représentation des individus dans le premier plan factoriel") # visualisation
+plot(iris[,1:4], bg=c("red","blue","orange")[iris.3means$cluster], pch=c(21,22, 25)[iris.3means$cluster],  main = "Diagramme de dispersion avec k = 3") # visualisation
+plot(iris[,1:4], bg=c("red","blue","orange")[iris.3means$cluster], pch=c(21,22, 25)[iris.3means$cluster],  main = "Diagramme de dispersion avec k = 2") # visualisation
+iris.4means <- kmeans(iris[,1:4], 4, iter.max = 100)#
+plot(iris[,1:4], bg=c("red","blue","orange","green")[iris.4means$cluster], pch=c(21,22,23,25)[iris.4means$cluster],  main = "Diagramme de dispersion avec k = 4") # visualisation
+iris.2means <- kmeans(iris[,1:4], 2, iter.max = 100)#
+plot(iris[,1:4], bg=c("red","blue")[iris.2means$cluster], pch=c(21,22)[iris.2means$cluster],  main = "Diagramme de dispersion avec k = 2") # visualisation
+unique(replicate(100, kmeans(iris[,1:4], 3, iter.max = 100)$tot.withinss))
+plot(iris.3means$cluster, bg=c("orange","blue","green")[iris.3means$centers], pch=c(21,22,25)[iris.3means$centers], xlab="Axe1",ylab="Axe2",axes=T, main = "Clustering Kmeans (k=3) sur iris") # visualisation
+iris.3means <- kmeans(iris[,1:4], 3, iter.max = 100)#
+plot(iris[,1:4], bg=c("red","blue","orange")[iris.3means$cluster], pch=c(21,22, 25)[iris.3means$cluster],  main = "Diagramme de dispersion avec k = 3") # visualisation
+unique(replicate(100, kmeans(iris[,1:4], 3, iter.max = 100)$tot.withinss))
+replicate(100, print(kmeans(iris[,1:4], 3, iter.max = 100)$tot.withinss))
+ceuc.app <- function(Xapp, zapp)#
+{#
+	uniques <- unique(zapp)#
+	nclass <- length(uniques)#
+	napp <- length(zapp)#
+	p <- ncol(Xapp)#
+#
+	#bind les labels aux individus#
+	X <- cbind(Xapp, zapp)#
+#
+	# initialize matrix parameters#
+	mu <- matrix(nrow = nclass, ncol = p)#
+#
+	# calcul centre de gravité pour chaque k classe#
+	for (i in 1:nclass) {#
+		k <- uniques[i]#
+		#submatrix des individus de Xapp appartenant à k#
+		Xk <- X[X[, p+1] == k, 1:p]#
+		# gravity centers for k#
+		gravityK <- apply(Xk, 2, mean)#
+		mu <- rbind(mu,gravityK)#
+	}#
+	# labelizing with class names#
+	uniques#
+	mu#
+}
+setwd("/Users/alexisdurocher/Documents/YouTheaSea/Compiegne2016/P17/SY09/TP03/donnees")
+pima <- read.csv("Pima.csv")
+Xapp <- pima[,1:7]
+zapp <- pima[,8]
+ceuc.app(Xapp, zapp)
+ceuc.app <- function(Xapp, zapp)#
+{#
+	uniques <- unique(zapp)#
+	nclass <- length(uniques)#
+	print(nclass)#
+	p <- ncol(Xapp)#
+#
+	#bind les labels aux individus#
+	X <- cbind(Xapp, zapp)#
+#
+	# initialize matrix parameters#
+	mu <- matrix(nrow = nclass, ncol = p)#
+#
+	# calcul centre de gravité pour chaque k classe#
+	for (i in 1:nclass) {#
+		k <- uniques[i]#
+		#submatrix des individus de Xapp appartenant à k#
+		Xk <- X[X[, p+1] == k, 1:p]#
+		# gravity centers for k#
+		gravityK <- apply(Xk, 2, mean)#
+		mu <- rbind(mu,gravityK)#
+		# labelizing with class names#
+		row.names(mu) <- c(row.names(mu), k)#
+	}#
+	mu#
+}
+ceuc.app(Xapp, zapp)
+ceuc.app <- function(Xapp, zapp)#
+{#
+	uniques <- unique(zapp)#
+	nclass <- length(uniques)#
+	print(nclass)#
+	p <- ncol(Xapp)#
+#
+	#bind les labels aux individus#
+	X <- cbind(Xapp, zapp)#
+#
+	# initialize matrix parameters#
+	mu <- matrix(nrow = 0, ncol = p)#
+#
+	# calcul centre de gravité pour chaque k classe#
+	for (i in 1:nclass) {#
+		k <- uniques[i]#
+		#submatrix des individus de Xapp appartenant à k#
+		Xk <- X[X[, p+1] == k, 1:p]#
+		# gravity centers for k#
+		gravityK <- apply(Xk, 2, mean)#
+		mu <- rbind(mu,gravityK)#
+		# labelizing with class names#
+		row.names(mu) <- c(row.names(mu), k)#
+	}#
+	mu#
+}
+ceuc.app(Xapp, zapp)
+ceuc.app <- function(Xapp, zapp)#
+{#
+	uniques <- unique(zapp)#
+	nclass <- length(uniques)#
+	print(nclass)#
+	p <- ncol(Xapp)#
+#
+	#bind les labels aux individus#
+	X <- cbind(Xapp, zapp)#
+#
+	# initialize matrix parameters#
+	mu <- matrix(nrow = 0, ncol = p)#
+#
+	# calcul centre de gravité pour chaque k classe#
+	for (i in 1:nclass) {#
+		k <- uniques[i]#
+		#submatrix des individus de Xapp appartenant à k#
+		Xk <- X[X[, p+1] == k, 1:p]#
+		# gravity centers for k#
+		gravityK <- apply(Xk, 2, mean)#
+		mu <- rbind(mu,gravityK)#
+		# labelizing with class names#
+		#row.names(mu) <- c(row.names(mu), k)#
+	}#
+	mu#
+}
+ceuc.app(Xapp, zapp)
+ceuc.app <- function(Xapp, zapp)#
+{#
+	uniques <- unique(zapp)#
+	nclass <- length(uniques)#
+	print(nclass)#
+	p <- ncol(Xapp)#
+#
+	#bind les labels aux individus#
+	X <- cbind(Xapp, zapp)#
+#
+	# initialize matrix parameters#
+	mu <- matrix(nrow = 0, ncol = p)#
+#
+	# calcul centre de gravité pour chaque k classe#
+	for (i in 1:nclass) {#
+		k <- uniques[i]#
+		#submatrix des individus de Xapp appartenant à k#
+		Xk <- X[X[, p+1] == k, 1:p]#
+		# gravity centers for k#
+		gravityK <- apply(Xk, 2, mean)#
+		mu <- rbind(mu,gravityK)#
+	}#
+	# labelizing with class names#
+	row.names(mu) <- uniques#
+	mu#
+}
+ceuc.app(Xapp, zapp)
