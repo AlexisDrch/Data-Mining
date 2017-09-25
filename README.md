@@ -1,4 +1,4 @@
-### SY09  Data-Mining & Machine Learning - UTC 
+# SY09  Data-Mining & Machine Learning - UTC 
 
 Credits:   6 Lectures   hours: 2h/week Projects   hours: 2h/week
 Prof.   Benjamin   Quost
@@ -15,12 +15,13 @@ In a nutshell, students will be able to describe the sense and information big v
 All   the   projects   are   implemented   with   R.2017-2018
 
 
-# ● Project 1
+#### ● Project 1
 Descriptive statistics and Principal Component Analysis: Basic analysis of datasets with R, correlation determination and factors influence; manual application of the   PCA,   then   use   of   R   tools   to   apply   it   on   different   datasets.
-# ● Project 2 Automatic Classification: Data visualization via AFTD (Analyse Factorielle d’un Tableau de Distances
+#### ● Project 2
+Automatic Classification: Data visualization via AFTD (Analyse Factorielle d’un Tableau de Distances
 Factorial Analysis of a Distances Table), to show that this leads to the same results as a PCA; Hierarchical Classification; K-means   implementation.
-# ● Project 3 
+#### ● Project 3 
 Discrimination, bayesian theory of decision: Implementation of Euclidian classifier, KNN algorithm with performance evaluation; Work on Bayes Rule with comparison   between   theoretical   and   practical   results.
-# ● Project 4
+#### ● Project 4
 Discrimination: Implementation of Discriminant function analysis (linear, quadratic, and naive bayesian classifier), Logistic regression (linear and quadratic); Use   of   Decision   Tree   libraries   and   test   on   real   data.
 2017-2018
